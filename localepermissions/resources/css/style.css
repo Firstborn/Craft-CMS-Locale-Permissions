@@ -1,0 +1,89 @@
+.localePermissionsWarning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    padding: 15px;
+    margin: 0 7px 20px 7px;
+    border-radius: 4px;
+    width:100%;
+}
+
+/*
+ * Input Fields
+ */
+
+.field.localePermissionsDisabled input,
+.field.localePermissionsDisabled textarea,
+.field.localePermissionsDisabled select,
+.field.localePermissionsDisabled .redactor-editor,
+.field.localePermissionsDisabled .redactor-layer{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    background-color:#ebedef !important;
+
+}
+
+.field.localePermissionsDisabled div.btn.add,
+.field.localePermissionsDisabled input[type=button] {
+    background-color: #eee !important;
+    background-image: none !important;
+    cursor: default;
+    display: none;
+}
+
+.field.localePermissionsDisabled a.delete {
+    display: none;
+}
+
+.field.localePermissionsDisabled .matrix .buttons {
+    display: none;
+}
+
+.field.localePermissionsDisabled .matrix .actions {
+    display: none;
+}
+
+.field.localePermissionsDisabled .elementselect,
+.field.localePermissionsDisabled .categoriesfield {
+    pointer-events: none;
+}
+
+/*
+ * Lightswitches
+ */
+
+.field.localePermissionsDisabled .lightswitch {
+    cursor: default;
+    pointer-events: none;
+ }
+
+/* 
+ * Preview buttons 
+ */
+
+.livepreviewbtn {
+    display: none;
+}
+
+.previewbtns .sharebtn {
+    width: 100%;
+}
+
+/*
+ * Save & Delete Buttons
+ */
+
+#enabled-field input[type=button] {
+    display: none;
+}
+
+#extra-headers .btngroup .submit {
+    display: none;
+}
+
+#content .body div.buttons input {
+    display:none;
+}
