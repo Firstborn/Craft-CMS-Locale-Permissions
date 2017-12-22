@@ -10,12 +10,12 @@ class LocalePermissionsPlugin extends BasePlugin
 
     public function getDescription()
     {
-        return 'Set control panel read/write access by locale on entries, categories and global fields. ';
+        return 'Set control panel read/write access by locale on entries, categories and global field sets.';
     }
 
     public function getVersion()
     {
-        return '1.0';
+        return '1.0.1';
     }
 
     public function getDeveloper()
